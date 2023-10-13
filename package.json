@@ -4,7 +4,8 @@
   "description": "Official Elxiir deployment with TompHTTP bare server included.",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "react-scripts build"
   },
   "files": ["static", "src"],
   "repository": {
